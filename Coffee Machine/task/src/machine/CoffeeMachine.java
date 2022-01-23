@@ -10,6 +10,7 @@ public class CoffeeMachine {
     private int disposableCups = 9;
     private final int[][] typesOfCoffee = {{250, 0, 16, 4}, {350, 75, 20, 7}, {200, 100, 12, 6}};
 
+	// comment
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         CoffeeMachine cm = new CoffeeMachine();
